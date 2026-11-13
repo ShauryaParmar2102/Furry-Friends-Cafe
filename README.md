@@ -43,8 +43,8 @@ These improvements helped transform the original text-heavy website into a more 
 
 | Technology | Purpose |
 |---|---|
-| 🌐 HTML5 | Website structure and content |
-| 🎨 CSS3 | Styling, layouts, and responsive design |
+| 🌐 HTML | Website structure and content |
+| 🎨 CSS | Styling, layouts, and responsive design |
 | ⚡ JavaScript | Interactive mobile navigation |
 | 📐 CSS Grid | Card-based page layouts |
 | 📦 Flexbox | Alignment and flexible layouts |
