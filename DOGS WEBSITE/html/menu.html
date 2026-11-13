@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu | Furry Friends Café</title>
+    <link rel="stylesheet" href="../css/mystyles.css">
+    <!-- Menu-card borders are defined here so they display even if an older
+         version of the shared stylesheet is cached or edited accidentally. -->
+    <style>
+        .menu-grid > .menu-card {
+            border: 3px solid #714c3c;
+            border-radius: 15px;
+            background: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <img
+            src="../IMAGES/Cafelogo.png"
+            alt="Furry Friends Café Logo"
+            class="cafe-logo"
+        >
+
+        <img
+            src="../IMAGES/logoandbanner.png"
+            alt="Furry Friends Café Banner"
+            class="cafe-banner"
+        >
+    </header>
+
+    <!-- Navigation -->
+        <!-- Responsive Navigation -->
+    <nav class="topnav" aria-label="Main navigation">
+        <button type="button" class="hamburger"
+                aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+        <div class="nav-links" id="navLinks">
+            <a href="../index.html">HOME</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="menu.html" class="active" aria-current="page">FOOD MENU</a>
+            <a href="adopt.html">ADOPTION PROCESS</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="party.html">PARTY BOOKINGS</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Menu Introduction -->
+        <section class="menu-intro">
+            <h1>Delicious Bites for You and Your Pup!</h1>
+
+            <p>
+                At Furry Friends Café, we believe in serving up
+                delicious meals that both you and your furry friend
+                will love.
+            </p>
+
+            <p>
+                Whether you're in the mood for a savoury snack,
+                a sweet treat, or a refreshing drink, we've got
+                something to satisfy everyone.
+            </p>
+
+            <p>
+                From mouth-watering human dishes to pet-friendly
+                snacks, our menu is designed to bring joy to both
+                ends of the leash!
+            </p>
+        </section>
+
+        <!-- Breakfast Menu -->
+        <section class="menu-section">
+            <h2>Breakfast Menu</h2>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <h3>Classic Avocado Toast</h3>
+                    <p>Fresh avocado served on toast.</p>
+                    <span class="price">$12.50</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Fluffy Pancakes</h3>
+                    <p>Fluffy pancakes with maple syrup.</p>
+                    <span class="price">$14.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Cheese and Ham Toastie</h3>
+                    <p>Toasted sandwich with cheese and ham.</p>
+                    <span class="price">$11.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Buttermilk Pancakes</h3>
+                    <p>Served with maple syrup or butter.</p>
+                    <span class="price">$14.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Veggie Breakfast Wrap</h3>
+                    <p>
+                        Scrambled eggs, spinach, avocado and feta
+                        in a whole wheat wrap.
+                    </p>
+                    <span class="price">$10.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Fruit Salad</h3>
+                    <p>
+                        A mix of seasonal fruits for a
+                        refreshing breakfast.
+                    </p>
+                    <span class="price">$8.00</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Lunch and Dinner -->
+        <section class="menu-section">
+            <h2>Lunch and Dinner Menu</h2>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <h3>Pepperoni Pizza</h3>
+                    <p>
+                        Loaded with spicy pepperoni
+                        and melted cheese.
+                    </p>
+                    <span class="price">$20.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Margherita Pizza</h3>
+                    <p>
+                        Melted cheese, classic tomato
+                        and fresh basil.
+                    </p>
+                    <span class="price">$20.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Paw-some Burger</h3>
+                    <p>
+                        Juicy beef patty with cheese, lettuce,
+                        tomato and special sauce, served
+                        with crispy fries.
+                    </p>
+                    <span class="price">$10.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Bark-tastic Chicken Wrap</h3>
+                    <p>
+                        Grilled chicken, fresh vegetables
+                        and creamy dressing wrapped
+                        in a soft tortilla.
+                    </p>
+                    <span class="price">$15.00</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Kids Menu -->
+        <section class="menu-section">
+            <h2>Kids Menu</h2>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <h3>Paw-lease Mini Burgers</h3>
+                    <p>
+                        Two small beef or veggie sliders
+                        with cheese, served with fries.
+                    </p>
+                    <span class="price">$10.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Little Pup Mac &amp; Cheese</h3>
+                    <p>
+                        Creamy macaroni and cheese
+                        with a side of apple slices.
+                    </p>
+                    <span class="price">$9.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Nuggets and Chips</h3>
+                    <p>Delicious paw-shaped nuggets.</p>
+                    <span class="price">$9.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Puppy Pancakes</h3>
+                    <p>
+                        Mini fluffy pancakes with maple
+                        syrup and fresh fruit.
+                    </p>
+                    <span class="price">$8.50</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Furry Friends Fruit Bowl</h3>
+                    <p>
+                        Fresh fruit with yoghurt
+                        or honey drizzle.
+                    </p>
+                    <span class="price">$7.50</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Paw Print Pizza</h3>
+                    <p>
+                        Small cheese or pepperoni pizza
+                        shaped like a dog's paw print.
+                    </p>
+                    <span class="price">$10.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Pawfect Pasta</h3>
+                    <p>
+                        Small portion of spaghetti with
+                        mild tomato or cheese sauce.
+                    </p>
+                    <span class="price">$9.00</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Drinks -->
+        <section class="menu-section">
+            <h2>Drinks Menu</h2>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <h3>Classic Cola</h3>
+                    <p>
+                        A refreshing, bubbly classic
+                        for any occasion.
+                    </p>
+                    <span class="price">$4.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Diet Cola</h3>
+                    <p>
+                        The same great taste
+                        with fewer calories.
+                    </p>
+                    <span class="price">$4.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Sprite</h3>
+                    <p>
+                        Refreshing lemon-lime soda
+                        with a bubbly kick.
+                    </p>
+                    <span class="price">$4.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Iced Tea</h3>
+                    <p>
+                        Lightly sweetened, available
+                        in lemon or peach.
+                    </p>
+                    <span class="price">$5.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Milkshakes</h3>
+                    <p>
+                        Available in vanilla,
+                        chocolate and strawberry.
+                    </p>
+                    <span class="price">$7.50</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Dog-Friendly Treats -->
+        <section class="menu-section dog-menu">
+            <h2>Dog-Friendly Treats</h2>
+
+            <p class="dog-menu-note">
+                Special treats made for our furry friends!
+                Please check ingredients and suitability
+                before feeding your dog.
+            </p>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <h3>Peanut Butter Pupcakes</h3>
+                    <p>
+                        Mini dog-friendly cupcakes made with
+                        dog-safe peanut butter and whole
+                        wheat flour.
+                    </p>
+                    <span class="price">$6.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Sweet Potato Chews</h3>
+                    <p>
+                        Dehydrated sweet potato slices,
+                        rich in fibre and vitamins.
+                    </p>
+                    <span class="price">$4.50</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Frozen Banana Bites</h3>
+                    <p>
+                        A refreshing treat made from
+                        frozen bananas and plain yoghurt.
+                    </p>
+                    <span class="price">$5.00</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Doggie Ice Cream</h3>
+                    <p>
+                        Frozen dog-friendly ice cream
+                        with suitable vanilla or
+                        peanut butter flavours.
+                    </p>
+                    <span class="price">$6.50</span>
+                </article>
+
+                <article class="menu-card">
+                    <h3>Apple &amp; Carrot Bites</h3>
+                    <p>
+                        Soft, chewy bites made from
+                        apples and carrots.
+                    </p>
+                    <span class="price">$4.50</span>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-content">
+            <h3>Furry Friends Café</h3>
+            <p>Paws, Relax and Enjoy!</p>
+
+            <div class="footer-links">
+                <a href="../index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/accounts/login/"
+                   aria-label="Instagram">
+                    <img
+                        src="../IMAGES/instagram.jpeg"
+                        alt="Instagram"
+                    >
+                </a>
+
+                <a href="https://www.facebook.com/"
+                   aria-label="Facebook">
+                    <img
+                        src="../IMAGES/facebook.png"
+                        alt="Facebook"
+                    >
+                </a>
+
+                <a href="https://discord.com/"
+                   aria-label="Discord">
+                    <img
+                        src="../IMAGES/discord.png"
+                        alt="Discord"
+                    >
+                </a>
+            </div>
+        </div>
+
+        <p class="copyright">
+            &copy; 2025 Furry Friends Café
+        </p>
+
+    </footer>
+
+    <!-- Shared hamburger menu JavaScript -->
+    <script src="../js/navbar.js"></script>
+</body>
+</html>

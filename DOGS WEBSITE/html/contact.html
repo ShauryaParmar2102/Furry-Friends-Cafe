@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Furry Friends Café</title>
+    <link rel="stylesheet" href="../css/mystyles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <img
+            src="../IMAGES/Cafelogo.png"
+            alt="Furry Friends Café Logo"
+            class="cafe-logo"
+        >
+
+        <img
+            src="../IMAGES/logoandbanner.png"
+            alt="Furry Friends Café Banner"
+            class="cafe-banner"
+        >
+    </header>
+
+    <!-- Navigation Bar -->
+        <!-- Responsive Navigation -->
+    <nav class="topnav" aria-label="Main navigation">
+        <button type="button" class="hamburger"
+                aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">&#9776;</button>
+        <div class="nav-links" id="navLinks">
+            <a href="../index.html">HOME</a>
+            <a href="contact.html" class="active" aria-current="page">CONTACT US</a>
+            <a href="menu.html">FOOD MENU</a>
+            <a href="adopt.html">ADOPTION PROCESS</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="party.html">PARTY BOOKINGS</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Contact Introduction -->
+        <section class="contact-intro">
+            <h1>Contact Us</h1>
+
+            <p>
+                Whether you have questions about our menu,
+                want to learn more about our adoption program,
+                or just want to say hello, feel free to reach out.
+            </p>
+
+            <p>
+                Give us a call or get in touch with our friendly team.
+                We can't wait to connect with you – and neither can
+                our furry friends!
+            </p>
+        </section>
+
+        <!-- Meet Our Team -->
+        <section class="team-section">
+
+            <h2>Meet Our Team</h2>
+
+            <div class="team-grid">
+
+                <article class="team-card">
+                    <img
+                        src="../IMAGES/shaurya.jpeg"
+                        alt="Shaurya Parmar"
+                    >
+
+                    <div class="team-info">
+                        <h3>Shaurya Parmar</h3>
+                        <p class="team-role">Café Founder</p>
+
+                        <p>
+                            Hi, I'm Shaurya Parmar, the founder
+                            of Furry Friends Café!
+                        </p>
+                    </div>
+                </article>
+
+                <article class="team-card">
+                    <img
+                        src="../IMAGES/kwan.jpeg"
+                        alt="Kwan Obang"
+                    >
+
+                    <div class="team-info">
+                        <h3>Kwan Obang</h3>
+                        <p class="team-role">Café Assistant</p>
+
+                        <p>
+                            Meet Kwan, one of our friendly team
+                            members who helps make Furry Friends
+                            Café a welcoming place for everyone!
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-section">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                Planning an event or have a question?
+                Our team would love to hear from you.
+            </p>
+
+            <div class="table-wrapper">
+                <table class="contact-table">
+                    <thead>
+                        <tr>
+                            <th>Contact Name</th>
+                            <th>Position</th>
+                            <th>Phone Number</th>
+                            <th>Email Address</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Shaurya Parmar</td>
+                            <td>Restaurant Manager</td>
+                            <td>
+                                <a href="tel:0424242750">
+                                    0423 254 750
+                                </a>
+                            </td>
+                            <td>
+                                <a href="mailto:shauryaparmar096@gmail.com">
+                                    shauryaparmar096@gmail.com
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Brandon Davidson</td>
+                            <td>Event Booking Manager</td>
+                            <td>
+                                <a href="tel:0476433566">
+                                    0476 433 566
+                                </a>
+                            </td>
+                            <td>
+                                <a href="mailto:events@furryfriendscafe.com.au">
+                                    events@furryfriendscafe.com.au
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Employment Application -->
+        <section class="careers-section">
+
+            <h2>Apply To Work With Us!</h2>
+
+            <p>
+                Love animals and enjoy working with people?
+                Join our friendly team and make a difference!
+            </p>
+
+            <div class="form-card">
+
+                <h3>Employment Application</h3>
+
+                <form
+                    class="application-form"
+                    action="#"
+                    method="post"
+                    enctype="multipart/form-data"
+                >
+
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input
+                            type="text"
+                            id="fname"
+                            name="fname"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input
+                            type="text"
+                            id="lname"
+                            name="lname"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="resume">Upload Your Resume</label>
+                        <input
+                            type="file"
+                            id="resume"
+                            name="resume"
+                            accept=".pdf,.doc,.docx"
+                            required
+                        >
+                    </div>
+
+                    <fieldset class="breed-options">
+                        <legend>What's your favourite dog breed?</legend>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="dog_breed"
+                                value="Beagle"
+                                required
+                            >
+                            Beagle
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="dog_breed"
+                                value="Pug"
+                            >
+                            Pug
+                        </label>
+
+                        <label>
+                            <input
+                                type="radio"
+                                name="dog_breed"
+                                value="Jack Russell"
+                            >
+                            Jack Russell
+                        </label>
+                    </fieldset>
+
+                    <button type="submit" class="btn">
+                        Submit Application
+                    </button>
+
+                </form>
+
+                <p class="form-note">
+                    Please complete all required fields and upload
+                    your resume. Applications can be submitted
+                    once our application service is connected.
+                </p>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="footer-content">
+            <h3>Furry Friends Café</h3>
+            <p>Paws, Relax and Enjoy!</p>
+
+            <div class="footer-links">
+                <a href="../index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="social-icons">
+                <a
+                    href="https://www.instagram.com/accounts/login/"
+                    aria-label="Instagram"
+                >
+                    <img
+                        src="../IMAGES/instagram.jpeg"
+                        alt="Instagram"
+                    >
+                </a>
+
+                <a
+                    href="https://www.facebook.com/"
+                    aria-label="Facebook"
+                >
+                    <img
+                        src="../IMAGES/facebook.png"
+                        alt="Facebook"
+                    >
+                </a>
+
+                <a
+                    href="https://discord.com/"
+                    aria-label="Discord"
+                >
+                    <img
+                        src="../IMAGES/discord.png"
+                        alt="Discord"
+                    >
+                </a>
+            </div>
+        </div>
+
+        <p class="copyright">
+            &copy; 2025 Furry Friends Café
+        </p>
+
+    </footer>
+
+    <!-- Shared hamburger menu JavaScript -->
+    <script src="../js/navbar.js"></script>
+</body>
+</html>
